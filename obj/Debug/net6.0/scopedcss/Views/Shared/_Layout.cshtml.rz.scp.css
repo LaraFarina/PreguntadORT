@@ -46,3 +46,257 @@ button.accept-policy[b-krhd1hzqju] {
   white-space: nowrap;
   line-height: 60px;
 }
+body[b-krhd1hzqju] {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.logo[b-krhd1hzqju] {
+  max-width: 250px;
+  margin-bottom: 50px;
+}
+
+.menu[b-krhd1hzqju] {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.opcion[b-krhd1hzqju] {
+  padding: 10px 20px;
+  background-color: #1d5275;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.background-image[b-krhd1hzqju] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: blur(5px);
+}
+.background-image img[b-krhd1hzqju]{
+  width: 100%;
+  height: 100%;
+}
+
+/* Pantalla Configurar Juego*/
+.formulario[b-krhd1hzqju] {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.opciones[b-krhd1hzqju] {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.opcion[b-krhd1hzqju] {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+/*  transition: background-color 0.3s; */
+}
+
+.opcion.dificultad[b-krhd1hzqju] {
+  background-color: #3498db;
+}
+
+.opcion.categoria[b-krhd1hzqju] {
+  background-color: #e74c3c;
+}
+
+.opcion.selected[b-krhd1hzqju] {
+  background-color: #27ae60;
+}
+
+button[type="submit"][b-krhd1hzqju] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input[type="text"][b-krhd1hzqju] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* JUEGO */
+
+
+.pregunta[b-krhd1hzqju] {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+.foto-container[b-krhd1hzqju] {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.foto[b-krhd1hzqju] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.respuestas[b-krhd1hzqju] {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.respuesta[b-krhd1hzqju] {
+  width: 400px;
+  color:#f0f0f0;
+  padding: 15px;
+  background-color: #1d5275;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+}
+
+.respuesta:hover[b-krhd1hzqju] {
+  background-color: #3f34db;
+}
+.boton-siguiente[b-krhd1hzqju] {
+  text-align: center;
+  margin-top: 20px;
+  width: 400px;
+  background-color: #3453db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+.usuario-puntaje[b-krhd1hzqju] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #1d5275;
+  color: #f0f0f0;
+  border-top-right-radius: 10px;
+  font-size: 16px;
+}
+
+.nombre-usuario[b-krhd1hzqju] {
+  font-weight: bold;
+}
+
+.puntaje[b-krhd1hzqju] {
+  margin-left: 10px;
+}
+/* RESPUESTA */
+.pantalla-celebracion[b-krhd1hzqju] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.felicitacion[b-krhd1hzqju] {
+  font-size: 116px;
+  font-weight: bold;
+  color:#1d5275;
+}
+
+.respuestafue[b-krhd1hzqju]{
+  font-size: 104px;
+  margin-top: 20px;
+  color:#256996;
+}
+
+.resultado[b-krhd1hzqju] {
+  font-size: 110px;
+  font-weight: bold;
+  margin-top: 20px;
+  color:#1d5275;
+}
+.boton-siguiente-respuesta[b-krhd1hzqju] {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3453db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* FIN */
+
+.tarjeta-resultados[b-krhd1hzqju] {
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  text-align: center;
+}
+
+.titulo-resultados[b-krhd1hzqju] {
+  font-size: 24px;
+}
+
+.nombre-usuario[b-krhd1hzqju],
+.puntaje-final[b-krhd1hzqju] {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.boton-volver[b-krhd1hzqju] {
+  display: inline-block;
+  background-color: #3453db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}

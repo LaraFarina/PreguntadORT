@@ -1,75 +1,103 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TP07_PreguntadORT.bundle.scp.css",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TP07_PreguntadORT.bundle.scp.css",
       "PackagePath": "staticwebassets\\TP07_PreguntadORT.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\El_Jardin_de_las_Delicias.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\El_Jardin_de_las_Delicias.jpg",
       "PackagePath": "staticwebassets\\img\\Artes\\El_Jardin_de_las_Delicias.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Gangsta_Rap.jfif",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Gangsta_Rap.jfif",
       "PackagePath": "staticwebassets\\img\\Artes\\Gangsta_Rap.jfif"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Impresionismo.jfif",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Impresionismo.jfif",
       "PackagePath": "staticwebassets\\img\\Artes\\Impresionismo.jfif"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\La_Flauta_MAgica.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\La_Flauta_MAgica.jpg",
       "PackagePath": "staticwebassets\\img\\Artes\\La_Flauta_MAgica.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\La_Mona_Lisa.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\La_Mona_Lisa.jpg",
       "PackagePath": "staticwebassets\\img\\Artes\\La_Mona_Lisa.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Michelangelo_Buonarroti.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Artes\\Michelangelo_Buonarroti.jpg",
       "PackagePath": "staticwebassets\\img\\Artes\\Michelangelo_Buonarroti.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Cricket.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Cricket.jpg",
       "PackagePath": "staticwebassets\\img\\Deportes\\Cricket.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Deportes_de_invierno.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Deportes_de_invierno.jpg",
       "PackagePath": "staticwebassets\\img\\Deportes\\Deportes_de_invierno.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Logo_Juegos_Olimpicos.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Logo_Juegos_Olimpicos.jpg",
       "PackagePath": "staticwebassets\\img\\Deportes\\Logo_Juegos_Olimpicos.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Mundial_2022.png",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Mundial_2022.png",
       "PackagePath": "staticwebassets\\img\\Deportes\\Mundial_2022.png"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Rugby.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\Rugby.jpg",
       "PackagePath": "staticwebassets\\img\\Deportes\\Rugby.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\grand_slam.jpg",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Deportes\\grand_slam.jpg",
       "PackagePath": "staticwebassets\\img\\Deportes\\grand_slam.jpg"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Logo.png",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Logo.png",
       "PackagePath": "staticwebassets\\img\\Logo.png"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Thumbs.db",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
     {
-      "Id": "C:\\Users\\larus\\Downloads\\TP07_PreguntadORT\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\categorias\\Arte.webp",
+      "PackagePath": "staticwebassets\\img\\categorias\\Arte.webp"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\categorias\\Deportes.webp",
+      "PackagePath": "staticwebassets\\img\\categorias\\Deportes.webp"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\categorias\\Entretenimiento.webp",
+      "PackagePath": "staticwebassets\\img\\categorias\\Entretenimiento.webp"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\categorias\\Historia.webp",
+      "PackagePath": "staticwebassets\\img\\categorias\\Historia.webp"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\categorias\\geografia.png",
+      "PackagePath": "staticwebassets\\img\\categorias\\geografia.png"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\fondito.jpg",
+      "PackagePath": "staticwebassets\\img\\fondito.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\img\\preguntados.png",
+      "PackagePath": "staticwebassets\\img\\preguntados.png"
+    },
+    {
+      "Id": "C:\\Users\\47871657\\Downloads\\TP07_PreguntadORT\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
