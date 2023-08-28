@@ -1,0 +1,16 @@
+<!-- Muestra:
+
+Nombre de usuario
+Puntaje final
+Un enlace para volver a jugar (Reinicia el juego invocando al método ConfigurarJuego del controller)
+
+-->
+ <div class="tarjeta-resultados">
+        <h2 class="titulo-resultados">¡Resultados!</h2>
+        <p class="nombre-usuario">Nombre de Usuario: @ViewBag.Username</p>
+        <p class="puntaje-final">Puntaje Final: @ViewBag.PuntajeFinal</p>
+        <a class="boton-volver" href='@Url.Action("ConfigurarJuego")'> Volver a Jugar</a>
+      </div>
+      <div class="background-image">
+        <img src="img/fondito.jpg" alt="Fondo">
+      </div>

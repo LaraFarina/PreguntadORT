@@ -1,0 +1,27 @@
+<!-- Muestra:
+
+un cartel grande (ponerle onda!!) indicando si la respuesta fue correcta o incorrecta. En caso de haber sido incorrecta, mostrar cuál era la respuesta correcta.
+Un enlace para jugar la siguiente pregunta (llama al método Jugar del controller).
+-->
+
+  
+      @if(ViewBag.Respuesta == true){
+    <div class="pantalla-celebracion">
+        <h1 class="felicitacion">FELICIDADES</h1>
+        <p class="respuestafue">Tu respuesta fue...</p>
+        <p class="resultado">¡CORRECTA!</p>
+      </div>
+          <a href='@Url.Action("Jugar", "Home")' class="boton-siguiente-respuesta"><button>Siguiente pregunta</button></a>
+
+}else{
+   <div class="pantalla-perdiste">
+        <h1 class="felicitacion">LAMENTABLEMENTE</h1>
+        <p class="respuestafue">Tu respuesta fue...</p>
+        <p class="resultado">¡INCORRECTA! :/</p>
+      </div>
+          <a href='@Url.Action("Index")' class="boton-siguiente-respuesta"><button>Volver a jugar</button></a>
+
+}   
+ <div class="background-image">
+        <img src="img/fondito.jpg" alt="Fondo">
+      </div>

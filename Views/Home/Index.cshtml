@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+ <!-- Debe mostrar el logo del juego y un enlace en formato de botón que invoca al método ConfigurarJuego del controller. (en resumen, llamar al Layout y sumar detalles)-->
+
+   <img src="img/Logo.png" alt="Logo" class="logo">
+    <div class="menu">
+        <a href='@Url.Action("ConfigurarJuego", "Home")' class="opcion">Jugar</a>
+        <a href='@Url.Action("ConfigurarJuego")' class="opcion">Configurar juego</a>
+        <a href="https://www.google.com.ar/?hl=es" class="opcion">Salir</a>
+      </div>
+      <div class="background-image">
+        <img src="img/fondito.jpg" alt="Fondo">
+      </div>

@@ -1,0 +1,38 @@
+<!--Permite configurar mediante un formulario (GET) usando select o input type radio:
+
+Dificultad (Eligiendo una en particular, o todas → value = -1 )
+Categoría (Eligiendo una en particular o todas → value = -1)
+Username
+
+        Todos los campos deben ser required!
+
+        Debe existir un botón Jugar que invoque al método Comenzar del controller. -->
+
+ <div class="formulario">
+        <h2>Configuración del Juego</h2>
+        <form>
+          <input type="text" name="username" placeholder="Ingrese su nombre de usuario" required>
+    
+          <div class="opciones">
+                     @foreach(Dificultad palabra in ViewBag.Dificultad){
+                           <button class="opcion dificultad" name="Dificultad" value="@palabra.IdDificultad">@palabra.Nombre</button>
+            }
+                                  <button class="opcion categoria" name="Dificultad" value="-1" >Todas las categorias<br/> 
+
+          </div>
+    
+          <div class="opciones">
+                    @foreach(Categoria palabra in ViewBag.Categoria){
+                
+            <button class="opcion categoria" name="Categoria" value="@palabra.IdCategoria">@palabra.Nombre</button>
+                 
+            }
+                      <button class="opcion categoria" name="Categoria" value="-1" >Todas las categorias<br/> 
+          </div>
+    
+          <button type="submit">Jugar</button>
+        </form>
+      </div>
+      <div class="background-image">
+        <img src="img/fondito.jpg" alt="Fondo">
+      </div>

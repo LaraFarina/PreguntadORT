@@ -1,0 +1,26 @@
+<!--  Muestra:
+
+Nombre de usuario y puntaje actual
+Número de pregunta actual y enunciado (Si hay foto la muestra)
+Un formulario (POST) con 4 botones para elegir la respuesta correcta (Si las respuestas tienen fotos, las muestra también como parte de la opción).
+Un botón para responder y enviar el formulario (llama al método VerificarRespuesta del controller).
+
+        El diseño de esta pantalla se la dejamos a criterio de cada grupo!-->
+
+ <p class="pregunta">@ViewBag.Pregunta.Enunciado</p>
+  
+           @foreach(Respuesta resp in ViewBag.RespuestasAPregunta)
+        {
+                         <div class="respuestas">
+
+            <a class="respuesta" href='@Url.Action("VerificarRespuesta", "Home", new { idPregunta=resp.IdPregunta, idRespuesta=resp.IdRespuesta })'></a>
+       </div>
+        }
+    
+    <div class="usuario-puntaje">
+        <span class="nombre-usuario">@ViewBag.Username</span>
+        <span class="puntaje">Puntaje: @ViewBag.Puntaje</span>
+      </div>
+    <div class="background-image">
+        <img src="img/fondito.jpg" alt="Fondo">
+      </div>
